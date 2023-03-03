@@ -8,7 +8,7 @@ public class Example1 {
         System.out.print(" nhap n: ");
         int n = in.nextInt();
         in.close();
-        int s = 0;
+        double s = 0;
         for (int i = 1; i<= n; i++){
             s = s + i;
         }

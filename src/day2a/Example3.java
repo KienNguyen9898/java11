@@ -10,7 +10,7 @@ public class Example3 {
         in.close();
         double s = 0;
         for (int i = 1; i<= n; i++){
-            s= s+ 1/i;
+            s= s+ 1.0/i;
         }
         System.out.printf("S= %.1f", s);
     }
